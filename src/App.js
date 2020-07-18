@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
+import Dog from "./images/dog.gif";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
+    <div class="wrapper">
+      <img src={Dog} alt="" />
     </div>
   );
 }
