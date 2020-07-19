@@ -4,8 +4,16 @@ body {
   background-size: cover;
 }
 
-img {
-  height: 150px;
-  margin-left: 10px;
-  margin-top: 450px;
+.dog {
+  height: 200px;
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+}
+
+.ball {
+  height: 100px;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
 }
