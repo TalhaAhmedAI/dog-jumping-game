@@ -33,6 +33,7 @@ function App() {
 
   return (
     <div>
+      <h1>CLICK ON THE DOG TO MAKE IT JUMP</h1>
       <img ref={ballAnim.ref} className="ball" src={Ball} alt="ball" />
       <img
         ref={ref}
